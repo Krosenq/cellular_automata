@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(19, 17, 17);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+    margin: 60px auto;
+}
+
+.row {
+    width: calc(10px * 101);
+    margin: 0 auto; 
+    padding: 0;
+    display: block;
+    height: 5px;
+}
+
+.active, 
+.inactive {
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+}
+
+.inactive {
+    background-color: rgb(26, 24, 133);
+}
+
+.active {
+    background-color: rgb(26, 121, 121);
+}
